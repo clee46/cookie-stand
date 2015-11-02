@@ -28,7 +28,7 @@ var PikePlace = {
       document.body.appendChild(nextHour);
     }
     nextHour = document.createElement('li');
-    nextHour.innerHTML = "<strong>Total:</strong> " + this.dailyTotals + ' cookies';
+    nextHour.innerHTML = "<span><strong>Total:</strong> " + this.dailyTotals + ' cookies</span>';
     document.body.appendChild(nextHour);
   }
 };
@@ -63,7 +63,7 @@ var SeaTac = {
       document.body.appendChild(nextHour);
     }
     nextHour = document.createElement('li');
-    nextHour.innerHTML = "<strong>Total:</strong> " + this.dailyTotals + ' cookies';
+    nextHour.innerHTML = "<span><strong>Total:</strong> " + this.dailyTotals + ' cookies</span>';
     document.body.appendChild(nextHour);
   }
 };
@@ -98,7 +98,7 @@ var Southcenter = {
       document.body.appendChild(nextHour);
     }
     nextHour = document.createElement('li');
-    nextHour.innerHTML = "<strong>Total:</strong> " + this.dailyTotals + ' cookies';
+    nextHour.innerHTML = "<span><strong>Total:</strong> " + this.dailyTotals + ' cookies</span>';
     document.body.appendChild(nextHour);
   }
 };
@@ -133,7 +133,7 @@ var Bellevue = {
       document.body.appendChild(nextHour);
     }
     nextHour = document.createElement('li');
-    nextHour.innerHTML = "<strong>Total:</strong> " + this.dailyTotals + ' cookies';
+    nextHour.innerHTML = "<span><strong>Total:</strong> " + this.dailyTotals + ' cookies</span>';
     document.body.appendChild(nextHour);
   }
 };
@@ -168,7 +168,7 @@ var Alki = {
       document.body.appendChild(nextHour);
     }
     nextHour = document.createElement('li');
-    nextHour.innerHTML = "<strong>Total:</strong> " + this.dailyTotals + ' cookies';
+    nextHour.innerHTML = "<span><strong>Total:</strong> " + this.dailyTotals + ' cookies</span>';
     document.body.appendChild(nextHour);
   }
 };
