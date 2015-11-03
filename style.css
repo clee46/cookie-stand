@@ -1,0 +1,34 @@
+p {
+  font-family: 'Dosis';
+  color: blue;
+}
+
+li {
+  font-family: 'Dosis';
+  color: green;
+}
+
+span {
+  color: red;
+}
+
+.custom {
+  font-family: 'Dosis';
+  color: #192C5C;
+}
+#data {
+  font-family: Verdana;
+  color: #506391;
+}
+#text {
+  font-family: Times;
+  color: #07173E;
+}
+#guide {
+  background-color: #C8D1E6;
+}
+.altback {
+  font-family: 'Dosis';
+  color: #7A89AF;
+}
+
