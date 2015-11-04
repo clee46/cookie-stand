@@ -33,6 +33,7 @@ function cookieStand(numHours,minCustomers,maxCustomers,avgCustomers){
   // }
   this.makelist = function (){
     // var tbl= document.createElement('table');
+
     var trElement=document.createElement('tr');
     for (i=0; i<numHours.length; i++) {
       var tdElement= document.createElement('td');
@@ -49,6 +50,15 @@ function cookieStand(numHours,minCustomers,maxCustomers,avgCustomers){
 var numHours = ['10am', '11am', '12pm', '1pm', '2pm', '3pm', '4pm', '5pm'];
 var pikePlace = new cookieStand(numHours,17,88,5.2);
 var tbl= document.createElement('table');
+for (i=0; i<numHours.length; i++) {
+      var thElement= document.createElement('th');
+
+      thElement.textContent= this.numHours[i];
+      tbl.appendChild(thElement);
+    }
+thElement=document.createElement('th')
+thElement.textContent='totals';
+      tbl.appendChild(thElement);
 pikePlace.calcRandom();
 pikePlace.calcTotals();
 pikePlace.calcDaily();
