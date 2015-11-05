@@ -73,4 +73,32 @@ Southcenter.calcTotals();
 Bellevue.calcTotals();
 Alki.calcTotals();
 
+// makeList();
+
+function updateLocation(event) {
+  var tableClear = document.getElementById('table');
+  tableClear.textContent = '';
+  event.preventDefault();
+  var storeName = event.target.myName.value;
+  console.log(storeName);
+  var storeMin = parseInt(event.target.min.value);
+  console.log(storeMin);
+  var storeMax = parseInt(event.target.max.value);
+  console.log(storeMax);
+  var storeAvg = parseInt(event.target.avg.value);
+  console.log(storeAvg);
+  alert('Am inside updateLocation');
+  var newStore = new cookieStand(storeName,storeMin,storeMax,storeAvg);
+  newStore.calcTotals();
+  makeList();
+}
+// Variables for DOM access
+// var storeName = document.getElementById('myName');
+// var storeMin = document.getElementById('min');
+// var storeMax = document.getElementById('max');
+// var storeAvg = document.getElementById('avg');
+var updateStores = document.getElementById('update');
+updateStores.addEventListener('submit', updateLocation);
+
 makeList();
+
