@@ -6,33 +6,21 @@
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
-    <form id = "update">
+    <form id="update">
       <fieldset>
        <legend> Cookie Data </legend>
-        <label>
-        Store Name:
-        <input type= "text" name= "myName" size="30" maxlength="100"/>
-        </label>
-        <br />
-        <label>
-         Minimum Customers Per Hour
-        <input type= "text" name= "min" size="30" maxlength="100"/>
-        </label>
-        <br />
-        <label>
-         Maximum Customers Per Hour
-        <input type= "text" name= "max" size="30" maxlength="100"/>
-        </label>
-        <br />
-        <label>
-         Average Customers Per Hour
-        <input type= "text" name= "avg" size="30" maxlength="100"/>
-        </label>
-        <br />
-        <input id = "myButton" type= "submit" value="Submit Data"/>
+        <label for="myName">Store Name:</label>
+        <input type="text" name="myName"/><br />
+        <label for="min">Minimum Customers Per Hour</label>
+        <input type="text" name="min"/><br />
+        <label for="max">Maximum Customers Per Hour</label>
+        <input type="text" name="max"/><br />
+        <label for="avg">Average Customers Per Hour</label>
+        <input type="text" name="avg"/><br />
+        <input id="myButton" type="submit" value="Submit Data"/>
       </fieldset>
     </form>
-    <script src = "app.js" type = 'text/javascript'></script>
+    <script src="app.js" type='text/javascript'></script>
   </body>
 </html>
 
