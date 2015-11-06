@@ -1,17 +1,63 @@
+body {
+  background-color: #BCC5E1;
+  font-family: 'Dosis';
+  color: #131E4B;
+}
+header {
+  background-color: #3E4E80;
+  height: 300px;
+}
+footer {
+  background-color: #3E4E80;
+  height: 50px;
+  padding-top: 25px;
+  padding-left: 20px;
+  clear: left;
+}
+header img {
+  margin-left: 300px;
+  margin-top: 20px;
+}
+header h1 {
+  margin-left: 450px;
+}
+header h3 {
+  margin-left: 350px;
+}
 p {
   font-family: 'Dosis';
-  color: blue;
 }
-
+section {
+  background-color: #BCC5E1;
+}
+article {
+  overflow: auto;
+}
+figure {
+  float: left;
+}
 li {
   font-family: 'Dosis';
-  color: green;
 }
-
-span {
-  color: red;
+ul {
+  list-style-type: none;
 }
-
+section.content {
+  float: left;
+  width: 900px;
+}
+aside {
+  width: 230px;
+  float: left;
+}
+#update {
+  float: left;
+  width: 275px;
+}
+#hours {
+  list-style-type: none;
+  margin-left: -40px;
+}
 .custom {
   font-family: 'Dosis';
   color: #192C5C;
